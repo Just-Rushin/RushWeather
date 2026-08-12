@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'courier new', monospace;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 1rem 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Space between logo and mode button */
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #05c425;
+  text-decoration: none;
+}
+
+.nav-right {
+  float: right;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: #1a1a1a;
+  display: flex;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.nav-button {
+  background-color: #05c425;
+  color: #121212;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.weather-container {
+  text-align: center;
+}
+
+.weather-info {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem auto;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

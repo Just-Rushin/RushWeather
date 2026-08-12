@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+    <title>RushWeather</title>
+</head>
+<body>
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="#" class="nav-logo">RushWeather</a>
+      </div>
+
+      <div class="nav-right">
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button class="nav-button" id="searchBtn">Search</button>
+      </div>
+    </nav>
+  
+    <div class="weather-container">
+      <div class="weather-info">
+        <h2 id="cityName">City Name</h2>
+        <p id="temperature">Temperature: --°C</p>
+        <p id="description">Description: --</p>
+        <p id="humidity">Humidity: --%</p>
+        <p id="windSpeed">Wind Speed: -- mph</p>
+
+        <div id="hourlyForecast" class="hourly-container"></div>
+      </div>
+    </div>
+</body>
+</html>
