@@ -4,7 +4,7 @@
 
 $(document).ready(function () {
     // Default load
-    getCoordinatesAndWeather('Noida');
+    getCoordinatesAndWeather('London');
 
     // Click event for the Search button in the navbar
     $('#searchBtn').on('click', function () {
